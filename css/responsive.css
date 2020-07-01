@@ -47,8 +47,10 @@
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
-	
+@media only screen and (max-width: 374px) {
+	.notify-btn {
+		padding: 2rem;
+	}
 	
 }
 
