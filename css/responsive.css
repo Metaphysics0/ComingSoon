@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
@@ -17,12 +17,13 @@
 
 /* Screens Resolution : 767px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media(max-width: 767px) {
 	
 	/* ---------------------------------
 	1. PRIMARY STYLES
 	--------------------------------- */
 
+	
 	p{ line-height: 1.4; }
 
 	h1{ font-size: 2.8em; line-height: 1; }
@@ -41,8 +42,40 @@
 	1. PRIMARY STYLES
 	--------------------------------- */
 
-	body{ font-size: 12px; }
-	
+	body {
+		font-family: 'Press Start 2P', cursive; 
+		font-size: 12px; 
+	}
+
+	h2 {
+		font-family: 'Press Start 2P', cursive; 
+		font-size: 19px;
+		font-weight: inherit;
+	}
+
+	.main-area{
+		background-image: url('../images/pixel_night.gif');
+		background-size: cover;
+	}
+
+	.main-area:after{ 
+		content:''; 
+		position: absolute; 
+		top: 0; 
+		bottom: 0;
+		left: 0; 
+		right: 0; 
+		z-index: -1;  
+		opacity: .4; 
+		background: #000; }
+}
+
+	.main-area .center-text {
+		margin-bottom: 300px;
+	}
+
+h2 .pixel {
+
 }
 
 /* Screens Resolution : 359px
